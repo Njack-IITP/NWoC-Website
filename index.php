@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.2/particles.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	    <link rel="stylesheet" href="css/style.css">
 		<script>
 			particlesJS("particles-js", 'config.json');
 		</script>
@@ -83,9 +85,110 @@
 							<header class="major">
 								<h2>Timeline</h2>
 							</header>
-							
-						</article>
+								<h2>2017</h2>
+							<section id="status-timeline" class="status-container">
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-picture">
+							<!-- 			<img src="img/status-icon-picture.svg" alt="Picture"> -->
+									</div> <!-- status-timeline-img -->
+	
+									<div class="status-timeline-content">
+										<h2>Program is announced</h2>
+										<p>NJACK Winter of code is released online and students and mentors are informed about the program.</p>
+										<span class="status-date">October First week</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
 
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-picture">
+							<!-- 			<img src="img/status-icon-movie.svg" alt="Movie"> -->
+									</div> <!-- status-timeline-img -->
+
+									<div class="status-timeline-content">
+										<h2>Mentor Registration begins</h2>
+										<p>Interested mentors sign up on the website and optionally register their projects on the website.</p>
+										<!-- <a href="#0" class="status-read-more">Read more</a> -->
+										<span class="status-date">October 10</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
+
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-picture">
+							<!-- 			<img src="img/status-icon-picture.svg" alt="Picture"> -->
+									</div> <!-- status-timeline-img -->
+
+									<div class="status-timeline-content">
+										<h2>Student Registrations Begin</h2>
+										<p>Interested students begin applying to the program.</p>
+										<!-- <a href="#0" class="status-read-more">Read more</a> -->
+										<span class="status-date">November 1</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
+
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-movie">
+							<!-- 			<img src="img/status-icon-location.svg" alt="Location"> -->
+									</div> <!-- status-timeline-img -->
+
+									<div class="status-timeline-content">
+										<h2>Mentor Registration ends</h2>
+										<!-- <a href="#0" class="status-read-more">Read more</a> -->
+										<span class="status-date">November 15</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
+
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-picture">
+							<!-- 			<img src="img/status-icon-location.svg" alt="Location"> -->
+									</div> <!-- status-timeline-img -->
+
+									<div class="status-timeline-content">
+										<h2>Projects Announced</h2>
+										<p>Organizing team selects projects and announces them.</p>
+										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+										<a href="#0" class="status-read-more">Read more</a> -->
+										<span class="status-date">November 26</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
+
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-picture">
+							<!-- 			<img src="img/status-icon-movie.svg" alt="Movie"> -->
+									</div> <!-- status-timeline-img -->
+
+									<div class="status-timeline-content">
+										<h2>Coding Begins</h2>
+										<p>Registered students start contributing to selected projects.</p>
+										<span class="status-date">November 28</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-movie">
+							<!-- 			<img src="img/status-icon-movie.svg" alt="Movie"> -->
+									</div> <!-- status-timeline-img -->
+
+									<div class="status-timeline-content">
+										<h2>Coding Ends</h2>
+										<p>Students conclude with their contributions for the program and file reports.<br>Mentors file feedback.</p>
+										<span class="status-date">January 7 2018</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
+								
+								<div class="status-timeline-block">
+									<div class="status-timeline-img status-picture">
+							<!-- 			<img src="img/status-icon-movie.svg" alt="Movie"> -->
+									</div> <!-- status-timeline-img -->
+
+									<div class="status-timeline-content">
+										<h2>Results Announced</h2>
+										<p></p>
+										<span class="status-date">January 10-15 2018</span>
+									</div> <!-- status-timeline-content -->
+								</div> <!-- status-timeline-block -->
+							</section> <!-- status-timeline -->
+							  
+						</article>
+<!-- 
 						<article class="post featured">
 							<header class="major">
 								<h2>Sponsors</h2>
@@ -96,7 +199,7 @@
 								</p>
 							</header>
 							
-						</article>
+						</article> -->
 
 					<article class="post featured">
 							<header class="major">
@@ -104,8 +207,8 @@
 								<p>
 									<ul type="none" class="actions">
 										<ul type="none" class="actions">
-										<li><a onclick="alert('Google Form to register?')" class="button big" target="_blank">Student</a></li>
-										<li><a onclick="alert('Google Form to register?')" class="button big" target="_blank">Mentor</a></li>
+										<li><a onclick="alert('Registrations are yet to open.')" class="button big" target="_blank">Student</a></li>
+										<li><a onclick="alert('Registrations are yet to open.')" class="button big" target="_blank">Mentor</a></li>
 									</ul>
 									</ul>
 								</p>
