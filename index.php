@@ -62,7 +62,7 @@
 								<p><b>NJACK Winter of Code is an initiative by Open Source Department of NJACK, IIT Patna for the students, who have never participated in Free or Open Source Software (FOSS) development before, to get them involved during the winter vacations and break the ice of Open Source contributions.</b></p>
 							</header>
 							<ul class="actions">
-								<li><a href="#" class="button big">Register!</a></li>
+								<li><a href="#register" class="button big">Register!</a></li>
 							</ul>
 						</article>
 
@@ -202,13 +202,23 @@
 						</article> -->
 
 					<article class="post featured">
-							<header class="major">
+							<header class="major" id="register">
 								<h2>Register</h2>
 								<p>
 									<ul type="none" class="actions">
 										<ul type="none" class="actions">
 										<li><a onclick="alert('Registrations are yet to open.')" class="button big" target="_blank">Student</a></li>
-										<li><a onclick="alert('Registrations are yet to open.')" class="button big" target="_blank">Mentor</a></li>
+										<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKeE8hL9jwRfPsQbbNP1HNB7XhYO0ZerOZ21ct8mJjNlWZ0Q/viewform" class="button big" target="_blank">Mentor</a></li>
+									</ul>
+									</ul>
+								</p>
+								<br>
+								<br>
+								<!-- <h3>Communication</h3> -->
+								<p>
+									<ul type="none" class="actions">
+										<ul type="none" class="actions">
+										<li><a href="https://goo.gl/gZ5Qe2" class="button big" target="_blank">Join Slack Channel</a></li>
 									</ul>
 									</ul>
 								</p>
@@ -253,7 +263,9 @@
 							</section> -->
 							
 							<section><center>
-								<p><a href="mailto:njack@iitp.ac.in">njack@iitp.ac.in</a></p>
+								<p><a href="mailto:njack@iitp.ac.in">njack@iitp.ac.in</a><br>
+								<a href="https://goo.gl/gZ5Qe2" target="_blank">Slack channel</a>
+							</p>
 							</section>
 							<section>
 								<ul class="icons alt">
