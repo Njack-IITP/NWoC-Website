@@ -218,7 +218,7 @@
 								<p>
 									<ul type="none" class="actions">
 										<ul type="none" class="actions">
-										<li><a href="https://goo.gl/gZ5Qe2" class="button big" target="_blank">Join Slack Channel</a></li>
+										<li><a href="https://goo.gl/gZ5Qe2" class="button big" target="_blank">Join Slack Channel</a></li><br>(SignUp using @iitp.ac.in email)
 									</ul>
 									</ul>
 								</p>
@@ -264,7 +264,7 @@
 							
 							<section><center>
 								<p><a href="mailto:njack@iitp.ac.in">njack@iitp.ac.in</a><br>
-								<a href="https://goo.gl/gZ5Qe2" target="_blank">Slack channel</a>
+								<a href="https://goo.gl/gZ5Qe2" target="_blank">Slack channel</a><br>(SignUp using @iitp.ac.in email)
 							</p>
 							</section>
 							<section>
