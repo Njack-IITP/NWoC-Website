@@ -2,6 +2,7 @@
 <html itemscope itemtype="http://schema.org/Article">
 	<head>
 		<title>NJACK Winter of Code</title>
+
 		<meta name="description" content="NWoC is a program that helps students understand the paradigm of Open Source contribution and gives them real world software development experience." />
 		<META NAME="Keywords" CONTENT="Njack,winter,code,nwoc,iit,iitp,patna,indian institute of technology">
 		<!-- Schema.org markup for Google+ -->
@@ -29,7 +30,15 @@
 		<meta property="article:modified_time" content="2017-10-12T19:08:47+01:00" />
 		<meta property="article:section" content="NJACK Winter of Code is an initiative by Open Source Department of NJACK, IIT Patna for the students, who have never participated in Free or Open Source Software (FOSS) development before, to get them involved during the winter vacations and break the ice of Open Source contributions." />
 		<meta property="article:tag" content="NWoC" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108030175-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
+		  gtag('config', 'UA-108030175-1');
+		</script>
 		<link rel="icon" 
 	      type="image/png" 
 	      href="favicon.ico">
