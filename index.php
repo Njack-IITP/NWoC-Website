@@ -1,7 +1,35 @@
 <!DOCTYPE HTML>
-<html>
+<html itemscope itemtype="http://schema.org/Article">
 	<head>
 		<title>NJACK Winter of Code</title>
+		<meta name="description" content="NWoC is a program that helps students understand the paradigm of Open Source contribution and gives them real world software development experience." />
+		<META NAME="Keywords" CONTENT="Njack,winter,code,nwoc,iit,iitp,patna,indian institute of technology">
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="NJACK Winter of Code">
+		<meta itemprop="description" content="NWoC is a program that helps students understand the paradigm of Open Source contribution and gives them real world software development experience.">
+		<meta itemprop="image" content="http://nwoc.njack-iitp.org/nwocLogo.jpg">
+
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@njackiitp">
+		<meta name="twitter:title" content="NJACK Winter of Code">
+		<meta name="twitter:description" content="NWoC is a program that helps students understand the paradigm of Open Source contribution and gives them real world software development experience.">
+		<meta name="twitter:creator" content="@njackiitp">
+		<!-- Twitter summary card with large image must be at least 280x150px -->
+		<meta name="twitter:image:src" content="http://nwoc.njack-iitp.org/nwocLogo.jpg">
+	
+		<!-- Open Graph data -->
+		<meta property="og:title" content="NJACK Winter of Code" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://www.example.com/" />
+		<meta property="og:image" content="http://nwoc.njack-iitp.org/nwocLogo.jpg" />
+		<meta property="og:description" content="NWoC is a program that helps students understand the paradigm of Open Source contribution and gives them real world software development experience." />
+		<meta property="og:site_name" content="NWoC" />
+		<meta property="article:published_time" content="2017-10-11T05:59:00+01:00" />
+		<meta property="article:modified_time" content="2017-10-12T19:08:47+01:00" />
+		<meta property="article:section" content="NJACK Winter of Code is an initiative by Open Source Department of NJACK, IIT Patna for the students, who have never participated in Free or Open Source Software (FOSS) development before, to get them involved during the winter vacations and break the ice of Open Source contributions." />
+		<meta property="article:tag" content="NWoC" />
+
 		<link rel="icon" 
 	      type="image/png" 
 	      href="favicon.ico">
