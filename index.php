@@ -244,7 +244,7 @@
 								<p>
 									<ul type="none" class="actions">
 										<ul type="none" class="actions">
-										<li><a onclick="alert('Registrations are yet to open.')" class="button big" target="_blank">Student</a></li>
+										<li><a href="https://docs.google.com/forms/d/1IBP83aSPvbkytBMBdUNLXO5UR_gsc4vQGeELXIswer4/viewform" class="button big" target="_blank">Student</a></li>
 										<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKeE8hL9jwRfPsQbbNP1HNB7XhYO0ZerOZ21ct8mJjNlWZ0Q/viewform" class="button big" target="_blank">Mentor</a></li>
 									</ul>
 									</ul>
@@ -255,7 +255,7 @@
 								<p>
 									<ul type="none" class="actions">
 										<ul type="none" class="actions">
-										<li><a href="https://goo.gl/gZ5Qe2" class="button big" target="_blank">Join Slack Channel</a></li><br>(SignUp using @iitp.ac.in email)
+										<li><a href="https://goo.gl/gZ5Qe2" class="button big" target="_blank">Join Slack Channel</a></li><br>(SignUp using @iitp.ac.in email or<br> <a href="mailto:njack@iitp.ac.in?subject=[NWOC] Slack Channel Invite Request&body=Desired username:">Send email requesting for invite link</a>)
 									</ul>
 									</ul>
 								</p>
@@ -301,14 +301,14 @@
 							
 							<section><center>
 								<p><a href="mailto:njack@iitp.ac.in">njack@iitp.ac.in</a><br>
-								<a href="https://goo.gl/gZ5Qe2" target="_blank">Slack channel</a><br>(SignUp using @iitp.ac.in email)
+								<a href="https://goo.gl/gZ5Qe2" target="_blank">Slack channel</a><br>(SignUp using @iitp.ac.in email or<br><a href="mailto:njack@iitp.ac.in?subject=[NWOC] Slack Channel Invite Request&body=Desired username:">send email requesting for invite link</a>)
 							</p>
 							</section>
 							<section>
 								<ul class="icons alt">
-									<li><a  href="#" class="icon alt fa fa-envelope fa-6"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a  href="mailto:njack@iitp.ac.in?subject=[NWOC]" class="icon alt fa fa-envelope fa-6"><span class="label">Email</span></a></li>
+									<li><a href="https://www.facebook.com/njack.iitp/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://github.com/Njack-IITP/" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section></center>
 						</section>
