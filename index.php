@@ -22,7 +22,7 @@
 		<!-- Open Graph data -->
 		<meta property="og:title" content="NJACK Winter of Code" />
 		<meta property="og:type" content="article" />
-		<meta property="og:url" content="http://www.example.com/" />
+		<meta property="og:url" content="http://nwoc.njack-iitp.org/" />
 		<meta property="og:image" content="http://nwoc.njack-iitp.org/nwocLogo.jpg" />
 		<meta property="og:description" content="NWoC is a program that helps students understand the paradigm of Open Source contribution and gives them real world software development experience." />
 		<meta property="og:site_name" content="NWoC" />
