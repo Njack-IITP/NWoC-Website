@@ -255,7 +255,7 @@
 								<p>
 									<ul type="none" class="actions">
 										<ul type="none" class="actions">
-										<li><a href="https://goo.gl/ymz1iF" class="button big" target="_blank">Join Slack Channel</a></li><br><!-- (SignUp using @iitp.ac.in email or<br> <a href="mailto:njack@iitp.ac.in?subject=[NWOC] Slack Channel Invite Request&body=Desired username:">Send email requesting for invite link</a>) -->
+										<li><a href="https://goo.gl/7H8rmx" class="button big" target="_blank">Join Slack Channel</a></li><br><!-- (SignUp using @iitp.ac.in email or<br> <a href="mailto:njack@iitp.ac.in?subject=[NWOC] Slack Channel Invite Request&body=Desired username:">Send email requesting for invite link</a>) -->
 									</ul>
 									</ul>
 								</p>
@@ -301,7 +301,7 @@
 							
 							<section><center>
 								<p><a href="mailto:njack@iitp.ac.in">njack@iitp.ac.in</a><br>
-								<a href="https://goo.gl/ymz1iF" target="_blank">Slack channel</a><br><!-- (SignUp using @iitp.ac.in email or<br><a href="mailto:njack@iitp.ac.in?subject=[NWOC] Slack Channel Invite Request&body=Desired username:">send email requesting for invite link</a>) -->
+								<a href="https://goo.gl/7H8rmx" target="_blank">Slack channel</a><br><!-- (SignUp using @iitp.ac.in email or<br><a href="mailto:njack@iitp.ac.in?subject=[NWOC] Slack Channel Invite Request&body=Desired username:">send email requesting for invite link</a>) -->
 							</p>
 							</section>
 							<section>
