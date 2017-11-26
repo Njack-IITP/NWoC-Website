@@ -32,6 +32,7 @@
 		<meta property="article:tag" content="NWoC" />
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108030175-1"></script>
+		<script src="assets/js/jquery.min.js"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
@@ -51,6 +52,16 @@
 	    <link rel="stylesheet" href="css/style.css">
 		<script>
 			particlesJS("particles-js", 'config.json');
+		</script>
+		<script>
+			$( document ).ready(function() {
+				$.get( "https://api.github.com/orgs/NJACKWinterOfCode/repos", function( data ) {
+					data.forEach(function(data_) {
+					    $("#projects_").append("<blockquote><h3 style=\"text-align: left;\">"+data_.name+"</h3><p>"+data_.description+"</p><ul class=\"icons alt\"><li><a href=\""+ data_.html_url +"\" class=\"icon alt fa-github\"><span class=\"label\">GitHub</span></a></li></ul></blockquote>");
+					});
+				});
+			// ;
+			});
 		</script>
 	</head>
 	<body class="is-loading">
@@ -118,6 +129,71 @@
 						</article>
 						
 						
+						<article class="post featured">
+							<header class="major">
+								<h2>Projects</h2>
+								<p id="projects_">
+							<a href="https://github.com/NJACKWinterOfCode" target="_blank">View the list on GitHub.</a>
+							<!-- 
+								<blockquote>
+									<h3 style="text-align: left;">Moto-Navigator</h3>
+									<p>Moto Navigator App is a navigation app available for Android. It uses your phone’s internet connection (4G/3G/2G/EDGE or Wi-Fi, as available) and GPS connection to track your present location and show you the navigation path to the destination via WALK/CYCLE/CAR routes. It uses API from mapbox. You can also save the paths for offline later access.<br>Tech Stack:Java, Android<br>Mentors: Anupam Das (slack: opticod)</p>
+									<ul class="icons alt">
+										<!-- <li><a  href="mailto:njack@iitp.ac.in?subject=[NWOC]" class="icon alt fa fa-envelope fa-6"><span class="label">Email</span></a></li> -->
+										<!-- <li><a href="https://github.com/NJACKWinterOfCode/Moto-Navigator" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</blockquote>
+								<blockquote>
+									<h3 style="text-align: left;">E-voting-portal</h3>
+									<p>This project was especially designed for IITP, Gymkhana Elections that use to happen in our college yearly for different student representative posts. This was my first project in very first year of my undergraduate course.<br>Tech Stack:PHP, HTML, CSS<br>Mentors: Anupam Das (slack: opticod)</p>
+									<ul class="icons alt"> -->
+										<!-- <li><a  href="mailto:njack@iitp.ac.in?subject=[NWOC]" class="icon alt fa fa-envelope fa-6"><span class="label">Email</span></a></li> -->
+										<!-- <li><a href="https://github.com/NJACKWinterOfCode/E-voting-portal" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul> -->
+								<!-- </blockquote>
+								<blockquote>
+									<h3 style="text-align: left;">TrackMyShows</h3>
+									<p>This project was especially designed for IITP, Gymkhana Elections that use to happen in our college yearly for different student representative posts. This was my first project in very first year of my undergraduate course.<br>Tech Stack: Swift, Ruby<br>Mentors: Chashmeet Singh (slack: chashmeetsingh)</p>
+									<ul class="icons alt"> -->
+										<!-- <li><a  href="mailto:njack@iitp.ac.in?subject=[NWOC]" class="icon alt fa fa-envelope fa-6"><span class="label">Email</span></a></li> -->
+										<!-- <li><a href="https://github.com/NJACKWinterOfCode/TrackMyShows" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</blockquote>
+								<blockquote>
+									<h3 style="text-align: left;">Wizzy-Downloader</h3>
+									<p>A website which lets you download youtube videos and also maintain your profile and past downloads.This website has been developed using the Django Framework.<br>Tech Stack: Python, JavaScript, HTML, CSS<br>Mentors: Abhijit Roy (slack: Ember)</p>
+									<ul class="icons alt"> -->
+										<!-- <li><a  href="mailto:njack@iitp.ac.in?subject=[NWOC]" class="icon alt fa fa-envelope fa-6"><span class="label">Email</span></a></li> -->
+										<!-- <li><a href="https://github.com/NJACKWinterOfCode/Wizzy-Downloader" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</blockquote>
+								<blockquote>
+									<h3 style="text-align: left;">Meridio</h3>
+									<p>//desc<br>Mentors: Abhijit Roy (slack: Ember)</p>
+									<ul class="icons alt"> -->
+										<!-- <li><a  href="mailto:njack@iitp.ac.in?subject=[NWOC]" class="icon alt fa fa-envelope fa-6"><span class="label">Email</span></a></li> -->
+										<!-- <li><a href="https://github.com/NJACKWinterOfCode/Meridio" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</blockquote>
+
+								<h3 style="font-size:1.9em;">Google Summer of Code Organisations' projects:</h3>
+								<p>Note: The projects listed below are actual projects from organisations in Google Summer of Code 2017. Contributing to issues in these projects will improve your GSoC application strength when applying to those organisations. <br>However, the complete process of bug resolution in larger organisations is quite slow as several members of the community need to approve your fix before they can be merged. Also, these issues would typically be harder to fix. At times, some issues take months to resolve and get merged.</p>
+								<blockquote>
+									<h3 style="text-align: left;">Drupal</h3>
+									<p>//desc<br>Tech Stack: PHP, JavaScript, CSS<br>Intermediate Mentors: Tameesh Biswas (slack: tameeshb)</p>
+									<ul class="icons alt"> -->
+										<!-- <li><a  href="mailto:njack@iitp.ac.in?subject=[NWOC]" class="icon alt fa fa-envelope fa-6"><span class="label">Email</span></a></li> -->
+										<!-- <li><a href="https://github.com/NJACKWinterOfCode/Meridio" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</blockquote> -->
+
+
+								</p>
+							</header>
+							
+						</article>
+
+
 						<article class="post featured">
 							<header class="major">
 								<h2>Timeline</h2>
@@ -245,7 +321,7 @@
 									<ul type="none" class="actions">
 										<ul type="none" class="actions">
 										<li><a href="https://docs.google.com/forms/d/1IBP83aSPvbkytBMBdUNLXO5UR_gsc4vQGeELXIswer4/viewform" class="button big" target="_blank">Student</a></li>
-										<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKeE8hL9jwRfPsQbbNP1HNB7XhYO0ZerOZ21ct8mJjNlWZ0Q/viewform" class="button big" target="_blank">Mentor</a></li>
+										<!-- <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKeE8hL9jwRfPsQbbNP1HNB7XhYO0ZerOZ21ct8mJjNlWZ0Q/viewform" class="button big" target="_blank">Mentor</a></li> -->
 									</ul>
 									</ul>
 								</p>
@@ -322,7 +398,7 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
