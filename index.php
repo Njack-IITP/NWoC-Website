@@ -338,6 +338,18 @@
 							</header>
 							
 						</article>
+					
+					<article class="post featured">
+							<header class="major" id="register">
+								<h2 style="font-size: 2em">Sponsor</h2>
+							<p>
+								<a href="https://github.com" target="_blank">
+									<img src="images/github_logo.png" style=" width: 50%" alt="">
+								</a>
+							</p>
+							</header>
+							
+						</article>
 
 
 					</div>
