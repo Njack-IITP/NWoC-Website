@@ -1,0 +1,28 @@
+{
+  "name": "nwoc",
+  "version": "1.0.0",
+  "description": "Website for the NJACK winter of code",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tameeshB/NWoC-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tameeshB/NWoC-Website/issues"
+  },
+  "homepage": "https://github.com/tameeshB/NWoC-Website#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.5"
+  }
+}
