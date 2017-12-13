@@ -9,6 +9,8 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+var columns = ["Handle","Project","PR","Difficulty","Marks","Total"];
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
