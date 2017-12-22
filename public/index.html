@@ -192,6 +192,18 @@
 							</header>
 							
 						</article>
+						<script>
+						$( document ).ready(function() { 
+							$.get( "https://tameesh.in/nwoc.php", function( data ) {
+								var lBoard = JSON.parse(data);
+								lBoard.forEach(function(stud, index){
+									$("#lBoardTable").append("<tr><td>"+parseInt(index+1)+"</td><td>"+stud.uname+"</td></tr>");
+								});
+								
+							});
+							
+						});
+						</script>
 						<article class="post featured" id="leaderboard">
 							<header class="major">
 								<h2 >Leaderboard</h2>
@@ -202,47 +214,11 @@
 									<thead>
 										<tr>
 											<th>Position</th>
-											<th>Name</th>
+											<th>GitHub handle</th>
 										</tr>
 									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Arya Das</td>
-										</tr>
-										<tr>
-											<td>2</td>
-											<td>Kartik Kwatra</td>
-										</tr>
-										<tr>
-											<td>3</td>
-											<td>Ashwin	Samudre</td>
-										</tr>
-										<tr>
-											<td>4</td>
-											<td>Harsh Jindal</td>
-										</tr>
-										<tr>
-											<td>5</td>
-											<td>Akshat Jain</td>
-										</tr>
-										<tr>
-											<td>6</td>
-											<td>Vansh Soni</td>
-										</tr>
-										<tr>
-											<td>7</td>
-											<td>Balakrishna Sahu</td>
-										</tr>
+									<tbody id="lBoardTable">
 										
-										<tr>
-											<td>8</td>
-											<td>Ayush Kumar Gupta</td>
-										</tr>
-										<tr>
-											<td>9</td>
-											<td>Rahul Grover</td>
-										</tr>
 									</tbody>
 								</table>
 							</div>
